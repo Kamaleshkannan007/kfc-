@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    /* background-image: linear-gradient(to bottom right, #ec3b1c, #00BBC9); */
+    background-color: #e4002b;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.jumbotron {
+    background-color: rgba(219, 147, 52, 0);
+}
+
+.drop-shadow {
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.153);
+}
+
+.lead {
+    color: white;
+    font-size: 2.2rem;
+}
+
+.btn-outline-light {
+    border-color: white;
+}
+
+
+.btn-outline-light:hover {
+    background-color: rgba(133, 48, 48, 0.201);
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-color: #00BBC9;
+    border-color: #00BBC9;
+}
+
+
+
+
+
+.kfc-carousel {
+    padding-top: 40px;
+}
+
+
+
+
+.kfc-carousel img {
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.kfc-carousel .carousel-item {
+    text-align: center;
+}
+
+.navbar {
+
+    background-color: wte;
+}
+
+
+.bg-dark{
+    background-color: #202124 !important;
+}
+.card-img-top{
+    
+height: 250px;
+    
+object-fit: cover;
+}
+.card-body a{
+    background-color: #494949;
+    border: none;
+}
+
+.card-body a:hover{
+    background-color: #7e7c7c;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.kfc-jumb img{
+    
+    height: 430px;
+        
+    margin-left: 90px;
+    }
+
+.kfc-jumb .kfc-cover-img{
+    text-align: center;
+}
+
+    @media only screen and (max-width: 767px){
+        .kfc-jumb img{
+            margin-left: 0;
+        }
+
+        .founder-img{
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 575px){
+        .card-deck .card{
+            width: 100% !important;
+        }
+    }
